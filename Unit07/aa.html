@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.contanner{
+			display: flex;
+		}
+		.box{
+			position: relative;
+			width: calc(100% / 3);
+		}
+		.box .title{
+			position: absolute;
+            bottom: 80px;
+            left: 20px;
+		}
+		img{
+			width: 100%;
+		}
+		.box .time{
+			position: absolute;
+			bottom: 10px;
+			left: 20px;
+		}
+		.box .body{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-image: linear-gradient(45deg, #3f3f3d, transparent);
+
+		}
+		.h-50{
+			position: relative;
+			height: 50%;
+		}
+		/*.box .time1{
+			position: absolute;
+			bottom: 10px;
+			left: 20px;
+		}
+		.box .title1{
+			position: absolute;
+            bottom: 80px;
+            left: 20px;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="contanner">
+		<div class="box">
+			<div class="thumbnail"><img src="images/anh_3.webp" alt=""></div>
+			<div class="body">
+				<div class="title"><a href="#">The AI magically removes moving objects from video.</a></div>
+				<div class="time">July 19, 2019</div>
+			</div>
+			<div class="thumbnail"><img src="images/anh_4.webp" alt=""></div>
+			<div class="body">
+				<div class="title1"><a href="#">The AI magically removes moving objects from video.</a></div>
+				<div class="time1">July 19, 2019</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="thumbnail"><img src="images/anh-6.webp" alt=""></div>
+			<div class="body">
+				<div class="title"><a href="#">The AI magically removes moving objects from video.</a></div>
+				<div class="time">July 19, 2019</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="h-50">
+				<div class="thumbnail"><img src="images/anh_3.webp" alt=""></div>
+				<div class="body">
+					<div class="title"><a href="#">The AI magically removes moving objects from video.</a></div>
+					<div class="time">July 19, 2019</div>
+				</div>
+			</div>
+			<div class="h-50">
+				<div class="thumbnail"><img src="images/anh_4.webp" alt=""></div>
+				<div class="body">
+					<div class="title"><a href="#">The AI magically removes moving objects from video.</a></div>
+					<div class="time">July 19, 2019</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
